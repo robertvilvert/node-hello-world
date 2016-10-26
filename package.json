@@ -1,0 +1,10 @@
+{
+  "name": "automation-nodejs",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js app using docker",
+  "author": "Robert Luiz Vilvert <robert.lvilvert@gmail.com>",
+  "dependencies": {
+    "express": "4.14.0"
+  }
+}
