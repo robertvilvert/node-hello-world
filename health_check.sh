@@ -6,7 +6,7 @@ code=$(timeout 15 curl -s -o /dev/null --max-time 5 --connect-timeout 8 -w "%{ht
 
 if [ $X -gt 0 ] || [ $code -ne 200 ] 
 then
-  exit 2
+  exit 1
 else
   exit 0
 fi
